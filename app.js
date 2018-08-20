@@ -3,11 +3,12 @@
 // =======================
 var express     = require('express');
 var app         = express();
-
+var bodyParser  = require('body-parser');
+var morgan      = require('morgan');
 
 // configuration =========
 // =======================
-var port =  process.env.PORT||80;
+var port =  process.env.PORT || 80;
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
