@@ -8,7 +8,7 @@ var morgan      = require('morgan');
 
 // configuration =========
 // =======================
-var port =  80;
+var port =  process.env.PORT;
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
