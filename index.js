@@ -9,9 +9,6 @@ var app         = express();
 // =======================
 var port =  process.env.PORT||80;
 
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(bodyParser.json());
-
 var apiRoutes = express.Router(); 
 
 apiRoutes.get('/', function(req, res) {
