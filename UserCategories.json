@@ -1,0 +1,121 @@
+{
+  "root": {
+    "UserCategories": [
+      {
+        "Id": "1",
+        "CategoryId": "1",
+        "UserId": "2"
+      },
+      {
+        "Id": "2",
+        "CategoryId": "2",
+        "UserId": "2"
+      },
+      {
+        "Id": "3",
+        "CategoryId": "1",
+        "UserId": "3"
+      },
+      {
+        "Id": "4",
+        "CategoryId": "1",
+        "UserId": "4"
+      },
+      {
+        "Id": "5",
+        "CategoryId": "5",
+        "UserId": "2"
+      },
+      {
+        "Id": "6",
+        "CategoryId": "6",
+        "UserId": "2"
+      },
+      {
+        "Id": "7",
+        "CategoryId": "7",
+        "UserId": "2"
+      },
+      {
+        "Id": "8",
+        "CategoryId": "8",
+        "UserId": "2"
+      },
+      {
+        "Id": "9",
+        "CategoryId": "2",
+        "UserId": "4"
+      },
+      {
+        "Id": "10",
+        "CategoryId": "2",
+        "UserId": "1"
+      },
+      {
+        "Id": "11",
+        "CategoryId": "10",
+        "UserId": "2"
+      },
+      {
+        "Id": "12",
+        "CategoryId": "9",
+        "UserId": "2"
+      },
+      {
+        "Id": "13",
+        "CategoryId": "8",
+        "UserId": "4"
+      },
+      {
+        "Id": "14",
+        "CategoryId": "6",
+        "UserId": "3"
+      },
+      {
+        "Id": "15",
+        "CategoryId": "7",
+        "UserId": "4"
+      },
+      {
+        "Id": "16",
+        "CategoryId": "8",
+        "UserId": "5"
+      },
+      {
+        "Id": "17",
+        "CategoryId": "9",
+        "UserId": "5"
+      },
+      {
+        "Id": "18",
+        "CategoryId": "10",
+        "UserId": "5"
+      },
+      {
+        "Id": "19",
+        "CategoryId": "3",
+        "UserId": "5"
+      },
+      {
+        "Id": "20",
+        "CategoryId": "4",
+        "UserId": "1"
+      },
+      {
+        "Id": "21",
+        "CategoryId": "4",
+        "UserId": "7"
+      },
+      {
+        "Id": "22",
+        "CategoryId": "5",
+        "UserId": "1"
+      },
+      {
+        "Id": "23",
+        "CategoryId": "8",
+        "UserId": "1"
+      }
+    ]
+  }
+}

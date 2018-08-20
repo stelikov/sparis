@@ -1,0 +1,57 @@
+{ "Categories": [
+   {
+      "CategoryId": "1",
+      "Name": "Health",
+      "Description": "Health"
+   },
+   {
+      "CategoryId": "2",
+      "Name": "Cleaning",
+      "Description": "Cleaning"
+   },
+   {
+      "CategoryId": "3",
+      "Name": "Driving",
+      "Description": "Driving"
+   },
+   {
+      "CategoryId": "4",
+      "Name": "Shooting",
+      "Description": "Shooting"
+   },
+   {
+      "CategoryId": "5",
+      "Name": "Beauty",
+      "Description": "Beauty"
+   },
+   {
+      "CategoryId": "6",
+      "Name": "BabySitter",
+      "Description": "BabySitter"
+   },
+   {
+      "CategoryId": "7",
+      "Name": "Fashion",
+      "Description": "Fashion"
+   },
+   {
+      "CategoryId": "8",
+      "Name": "Photography",
+      "Description": "Photography"
+   },
+   {
+      "CategoryId": "9",
+      "Name": "Sports",
+      "Description": "Sports"
+   },
+   {
+      "CategoryId": "10",
+      "Name": "Sexual",
+      "Description": "Sexual"
+   },
+   {
+      "CategoryId": "11",
+      "Name": "Masseuse",
+      "Description": "Masseuse"
+   }
+]}
