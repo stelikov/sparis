@@ -38,6 +38,13 @@ app.use(morgan('dev'));
 // get an instance of the router for api routes
 var apiRoutes = express.Router(); 
 
+apiRoutes.get('/xxx', function(req, res) {
+		
+	res.json({ success: true, message: 'Authentication failed' });
+	
+});  
+
+
 // TODO: route to authenticate a user (POST http://localhost:8080/api/authenticate)
 
 // route to authenticate a user (POST http://localhost:8080/api/authenticate)
