@@ -12,8 +12,8 @@ var jwt    = require('jsonwebtoken'); // used to create, sign, and verify tokens
 var config = require('./config'); // get our config file
 var User   = require('./models/user'); // get our mongoose model
 var wiki = require('./controllers/auth.js');
-
-var url = "mongodb://tumkast:st3l1k0v@ds125502.mlab.com:25502/sparis"
+var events = require('./controllers/events.js');
+var url = "mongodb://localhost:27017/";
 
 // =======================
 // configuration =========
@@ -110,8 +110,6 @@ apiRoutes.get('/categories', function(req, res) {
 		res.json({ success: false, message: 'Authentication failed' });
 	}
 	
-	console.log(userId);
-	
 	MongoClient.connect(url, function(err, db) {
 	  if (err) throw err;
 	  var dbo = db.db("sparis");
@@ -131,7 +129,7 @@ apiRoutes.get('/categories', function(req, res) {
 	});
 	
 });
-
+app.use('/api', events);
 
 // route middleware to verify a token
 apiRoutes.use(function(req, res, next) {
